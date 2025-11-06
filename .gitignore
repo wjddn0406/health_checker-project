@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+*.egg-info/
+.mypy_cache/
+
+# IDE files (PyCharm/VS Code)
+.vscode/
+.idea/
+
+# Django
+db.sqlite3 # 로컬 DB 파일은 올리지 않습니다.
+media/
+staticfiles/ # collectstatic으로 모은 파일은 올리지 않습니다.
+
+# Secret settings
+*/settings_local.py

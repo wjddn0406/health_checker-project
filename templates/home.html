@@ -1,0 +1,17 @@
+<body>
+    <div class="container" style="text-align: center;">
+        <h1 style="font-size: 2.5em;">🎉 웰컴! 건강 관리 시작! 🎉</h1>
+        <p style="font-size: 1.2em; margin-bottom: 30px;">
+            매일의 기록이 모여 건강한 나를 만듭니다.
+        </p>
+        
+        <a href="{% url 'survey:survey_form' %}" style="padding: 15px 30px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 8px; font-size: 1.2em;">
+            오늘의 설문 시작하기
+        </a>
+        
+        <p style="margin-top: 40px; font-size: 0.9em;">
+            <a href="{% url 'survey:signup' %}">회원가입</a> | <a href="{% url 'survey:login' %}">로그인</a>
+        </p>
+    </div>
+</body>
+</html>
